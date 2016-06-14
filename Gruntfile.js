@@ -14,13 +14,13 @@ module.exports = function (grunt) {
                 },
                 components: true
             },
-            openInvoices: {
+            widget2: {
                 options: {
                     resources: {
-                        cwd: "widgets/openInvoices",
-                        prefix: "dwc/widgets/openInvoices"
+                        cwd: "widgets/component",
+                        prefix: "namespace/namespacepart2/namespacepart3"
                     },
-                    dest: "widgets/openInvoices"
+                    dest: "widgets/component"
                 },
                 components: true
             }
